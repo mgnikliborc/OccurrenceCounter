@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccurrenceCounterTest", "OccurrenceCounterTest\OccurrenceCounterTest.csproj", "{7BDFB43B-AE2E-47E4-B0DC-C9EB63973226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccurrenceCounter", "OccurrenceCounter\OccurrenceCounter.csproj", "{78C0B52B-1DB0-4CBB-A21B-1AEA3390DBA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccurrenceCounterClientTest", "OccurrenceCounterClientTest\OccurrenceCounterClientTest.csproj", "{8EAB73E1-4E05-4863-9FAB-7B9C67E22C4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OccurrenceCounterClient", "OccurrenceCounterClient\OccurrenceCounterClient.csproj", "{E5A44E67-E628-432E-B20C-92124002AE7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BDFB43B-AE2E-47E4-B0DC-C9EB63973226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDFB43B-AE2E-47E4-B0DC-C9EB63973226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDFB43B-AE2E-47E4-B0DC-C9EB63973226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDFB43B-AE2E-47E4-B0DC-C9EB63973226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C0B52B-1DB0-4CBB-A21B-1AEA3390DBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C0B52B-1DB0-4CBB-A21B-1AEA3390DBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C0B52B-1DB0-4CBB-A21B-1AEA3390DBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C0B52B-1DB0-4CBB-A21B-1AEA3390DBA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EAB73E1-4E05-4863-9FAB-7B9C67E22C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EAB73E1-4E05-4863-9FAB-7B9C67E22C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EAB73E1-4E05-4863-9FAB-7B9C67E22C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EAB73E1-4E05-4863-9FAB-7B9C67E22C4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5A44E67-E628-432E-B20C-92124002AE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5A44E67-E628-432E-B20C-92124002AE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5A44E67-E628-432E-B20C-92124002AE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5A44E67-E628-432E-B20C-92124002AE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
