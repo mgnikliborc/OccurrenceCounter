@@ -1,8 +1,18 @@
 # Occurrence Counter
 
-Occurrence Counter is a .NET application which performs calculation of words' occurrence in provided text. An user can insert it as a free text or select a text file to process. 
+Occurrence Counter is a .NET application which performs calculation of words' occurrence in a provided text. A user can insert it as a free text or select a text file to process. 
 
-The additional goal of this solution is to demonstrate development skills and usage of fallowing technologies: 
+It consists of two modules:
+
+* **OccurrenceCounter** - class library with the main logic of the application 
+* **OccurrenceCounterClient** - WPF client application 
+
+Each of modules has its own test project. 
+
+Thanks to dependency injection and Prism library, the client application can be easily extended with new functionalities.
+Design of the OccurrenceCounter library with well defined interface makes it reusable by any other client application.
+
+The additional goal of this solution is to demonstrate development skills and usage of the following technologies: 
 
 * .NET 4.5.2
 * C#
