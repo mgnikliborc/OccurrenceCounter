@@ -12,8 +12,7 @@ Each of modules has its own test project.
 Thanks to dependency injection and Prism library, the client application can be easily extended with new functionalities.
 Design of the OccurrenceCounter library with well defined interface makes it reusable by any other client application.
 
-In order to calculate the number of occurrence the MapReduce Model was implement which seems to be good 
-choice for this class of problems.
+In order to calculate the number of occurrence I used the MapReduce-like model. The solution was designed to process data on a single machine but in case the input data does not fit single machine memory it could be reworked to MapReduce implementation.
 
 The additional goal of this solution is to demonstrate development skills and usage of the following technologies: 
 
